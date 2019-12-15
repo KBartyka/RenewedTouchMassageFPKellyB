@@ -1,42 +1,66 @@
 /* Cascading Style Sheet for Renewed Touch Massage*/
 
-* {
+.selector-for-some-widget {
     box-sizing: border-box;
-
 }
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    /*-webkit-text-size-adjust: 100%;*/
+    /*-webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
+}
+
 header, main, nav, footer, figure, aside, section, article {display: block;}
 
 body {
     background-color: darkseagreen;
     color: darkslategray;
-    font-family: Georgia, "Times New Roman", Times, serif;;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12px;
     }
 
 header {
     background-color: #fffece;
     color: darkslategrey;
-    height: 120px;
+    width: auto;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: left;
     text-align: center;
-    padding-top: 30px;
-    padding-right: 3em;
+    padding-top: 1px;
+    padding-right: 15em;
     }
+h1 {
+    margin-bottom: 3em;
+    margin-top: 1em;
+    font-size: 3em;
+    letter-spacing: 0.20em;
+}
 
 nav {
     font-weight: bold;
+    text-align: center;
     padding: 1.5em;
-    font-size: 120%;
     float: left;
-    width: 160px;
+    width: 120px;
     }
 
 nav a {
     text-decoration: none;
     transition-delay: inherit;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    border: #FFFFFF 3px outset;
+    padding: 1em;
+    margin-bottom: 1em;
     }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
     padding-left: 0;
     font-size: 1.2em;
     }
@@ -51,15 +75,10 @@ nav a:visited {
 
 nav a:hover {
     color: #bb2ee6;
+    border: 3px inset #333333;
+    background-color: #FFFFFF;
+    transition: background-color 3s ease-out;
     }
-
-h1 {
-    margin-bottom: 3em;
-    margin-top: 1em;
-    font-size: 3em;
-    letter-spacing: 0.20em;
-}
-
 h2 {
     color: darkslategrey;
     text-shadow: 1px 1px darkseagreen;
@@ -79,17 +98,17 @@ h3 {
 
 main {
     padding-top: 1px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     display: block;
     background-image: linear-gradient(to bottom, #FFFECE, goldenrod);
     margin-left: 190px;
-    padding-left: 30px;
+    padding-left: 10px;
     }
 
 footer {
-    font-size: 75%;
-    font-style: bold;
+    font-size: 100%;
+    font-style: oblique;
     text-align: center;
     padding: 30px;
     background-image: linear-gradient(to bottom, #FFFECE, darkslategray);
@@ -97,6 +116,13 @@ footer {
     margin-right: 190px;
     clear: both;
     }
+li {font-size: 90%;}
+
+form {padding: 3em;}
+
+#floatright {float: right; margin-left: 4em;}
+
+#clear {clear: both;}
 
 #contact {
     font-size: 90%;
@@ -106,13 +132,13 @@ footer {
     margin-right: auto;
     width: 80%;
     background-color: darkseagreen;
-    min-width: 960px;
-    max-width: 2048px;
+    min-width: 550px;
+    max-width: 1280px;
     box-shadow: 3px 3px 3px darkslategrey;
     border-width: 1px;
     border-color: rebeccapurple;
     background-image: linear-gradient(to bottom, #FFFECE, goldenrod);
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     }
 #homehero, #servicesofferedhero, #schedulehero, #abouttherapisthero, #aboutsession {
     height: 300px;
@@ -122,28 +148,29 @@ footer {
 }
 #homehero {
     background-image: url(../images/curehands.jpg);}
-}
+
 #servicesofferedhero {
     background-image: url(../images/doingmassage.jpg);}
-}
+
 #schedulehero {
     background-image: url(../images/whitecandle.jpg);}
-}
+
 #abouttherapistherohero {
     background-image: url(../images/KellyBartyczakGFsq.jpg);}
-}
+
 #aboutsessionhero {
     background-image: url(../images/twowomanchatting.jpg);}
-}
+
 
 #mobile {
     display: none;
 }
 #desktop {
+    min-width: 64em;
     display: inline;
 }
 .text {
-    text-align: left;
+    text-align: right;
 }
 
 tr:nth-of-type(odd){
