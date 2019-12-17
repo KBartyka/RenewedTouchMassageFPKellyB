@@ -136,7 +136,7 @@ form {padding: 3em;inline-size: auto;}
     background-image: linear-gradient(to bottom, #FFFECE, goldenrod);
     background-repeat: no-repeat;
     }
-#homehero, #servicesofferedhero, #schedulehero, #abouttherapisthero, #aboutsession, #benefitsmassagehero {
+#homehero, #servicesofferedhero, #schedulehero, #abouttherapisthero, #aboutsession, #benefitsmassagehero, #contacthero {
     height: 300px;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -227,7 +227,7 @@ video, embed, video a {
         padding-right: 0.75em;
     }
 
-    #homehero, #servicesofferedhero, #schedulehero, #abouttherapisthero, #aboutsession {
+    #homehero, #servicesofferedhero, #schedulehero, #abouttherapisthero, #aboutsession, #benefitsmassagehero, #contacthero {
         margin-left: 0;
         height: 200px;
     }
@@ -261,7 +261,7 @@ video, embed, video a {
             display: block;
         }
 
-        #homehero, #servicesofferedhero, #schedulehero, #abouttherapisthero, #aboutsession {
+        #homehero, #servicesofferedhero, #schedulehero, #abouttherapisthero, #aboutsession, #benefitsmassagehero, #contacthero {
             background-image: none;
             height: 0;
         }
